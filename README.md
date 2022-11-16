@@ -1,4 +1,4 @@
-I choose the Option 6) Serving with REST APIs Python Flask 
+## I choose the Option 6) Serving with REST APIs Python Flask 
 
 # FLOWER-CLASSIFIER-WEBAPP
 This is an neural network webapp visualizing the training of the network and testing accuracy of 98.6% accuracy.
