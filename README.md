@@ -52,3 +52,4 @@ now go to the local server something like this - http://127.0.0.1:5000/ and see 
 
 <img width="1440" alt="Screen Shot 2022-11-18 at 2 31 56 PM" src="https://user-images.githubusercontent.com/99461999/202814214-fd51cef3-af91-4b57-9e47-ce983c24a04b.png">
 
+<img width="1439" alt="Screen Shot 2022-11-18 at 3 01 10 PM" src="https://user-images.githubusercontent.com/99461999/202817215-fe3b98d9-cd45-4697-a1ef-5919885cc3fb.png">
