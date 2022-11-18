@@ -48,3 +48,6 @@ Make sure you have installed Python , Pytorch and flask.
 This will firstly download the models and then start the local web server.
 
 now go to the local server something like this - http://127.0.0.1:5000/ and see the result and explore.
+
+<img width="1440" alt="Screen Shot 2022-11-18 at 2 31 56 PM" src="https://user-images.githubusercontent.com/99461999/202814214-fd51cef3-af91-4b57-9e47-ce983c24a04b.png">
+
