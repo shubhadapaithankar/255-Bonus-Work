@@ -1,11 +1,9 @@
 
 ## Option: 6) Serving with REST APIs( Python Flask ) 
 
-# FLOWER-CLASSIFIER-WEBAPP
-This is an neural network webapp visualizing the training of the network and testing accuracy of 98.6% accuracy.
-The neural network uses pretrained resnet152 and then trained to classify images of flowers.
-It is built using Pytorch framework using Python as primary language.
-The webapp is built using flask.
+# FLOWER CLASSIFIER WEBAPP
+
+This neural network web application shows how the network was trained and tested with a 98.6% accuracy rate. The neural network is trained to categorize photos of flowers using the pretrained resnet152 algorithm. It was created with the Pytorch framework and primarily in Python. Flask is used to build the web application.
 
 
 ## Neural Network used : 
