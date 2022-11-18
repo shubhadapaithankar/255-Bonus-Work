@@ -26,7 +26,8 @@ The webapp is built using flask.
 ![resnet152infer](/static/inference.gif)     
 
 ## Complete flow :    
-![model](/static/model.gif)   
+
+https://user-images.githubusercontent.com/99461999/202816997-ef2fff87-a1e8-4048-960e-2e07c3369031.mov
 
 
 ## Run on windows - 
