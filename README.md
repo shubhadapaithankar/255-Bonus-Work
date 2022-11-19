@@ -1,12 +1,14 @@
 
 # Option: 6) Serving with REST APIs( Python Flask ) 
 
-#Devlopment of AI application and classification:
+# Devlopment of AI application and classification:
 
-Modele training and AI Application classification steps are as :
 
-COLAB NOTEBOOK: 
+### COLAB NOTEBOOK: 
 https://colab.research.google.com/drive/1WVUu3SfG6LjkPxjWs8QWBHlGsUsWU5sH#scrollTo=s2FFmHRz2zpR
+
+### Modele training and AI Application classification steps are as :
+https://github.com/shubhadapaithankar/255-Bonous-Work/blob/main/Flower_classifier-Notebook.ipynb
 
 # FLOWER CLASSIFIER WEBAPP
 
