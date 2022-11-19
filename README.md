@@ -3,6 +3,7 @@
 
 # Devlopment of AI application and classification:
 
+AI algorithms will be used in an increasing number of commonplace applications in the future. For instance, you might want to incorporate an image classifier into a mobile application. As part of the broader application design, you would employ a deep learning model that had been trained on hundreds of thousands of photos to accomplish this.The use of these kinds of models as standard components of applications will make up a sizable portion of software development in the future. You will train an image classifier in this project to identify several flower species.
 
 ### COLAB NOTEBOOK: 
 https://colab.research.google.com/drive/1WVUu3SfG6LjkPxjWs8QWBHlGsUsWU5sH#scrollTo=s2FFmHRz2zpR
