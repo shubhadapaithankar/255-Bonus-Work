@@ -1,72 +1,113 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<title>FLOWER CLASSIFIER APP</title></head>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>FLOWER CLASSIFIER APP</title>
+</head>
 <style>
-.jumbotron img{margin: 4px 2px 8px 350px;}
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #fc7419;
-   color: white;
-   text-align: center;
-}
-@media only screen and (max-width: 768px) {
+  .jumbotron img {
+    margin: 4px 2px 8px 350px;
+  }
 
-.jumbotron img{margin: 4px 2px 8px 70px;}
-h2 {margin:4px 2px 8px 70px; }
- input[type=submit]{
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 4px 2px 8px 150px;
-  cursor: pointer;
-}
-input[type=file]{
-background-color: #8a8a5c;
-  border: none;
-  color: white;
-  padding: 8px 8px;
-  text-decoration: none;
-  margin: 4px 2px 8px 70px;;
-  cursor: pointer;
-}
-}
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    background-color: #19c3fcce;
+    color: black;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .jumbotron img {
+      margin: 4px 2px 8px 70px;
+    }
+
+    h2 {
+      margin: 4px 2px 8px 70px;
+    }
+
+    input[type=submit] {
+      background-color: #19aade;
+      border: none;
+      color: black;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px 8px 150px;
+      cursor: pointer;
+    }
+
+    input[type=file] {
+      background-color: #8a8a5c;
+      border: none;
+      color: rgb(223, 238, 192);
+      padding: 8px 8px;
+      text-decoration: none;
+      margin: 4px 2px 8px 70px;
+      ;
+      cursor: pointer;
+    }
+  }
+  table, th,td{
+    border: 1px solid black;
+  }
 </style>
+
 <body>
-<div class="container">
-  <div class="jumbotron">
-	<div id="1">
-    <img src="/static/1.jpg" height="300px">
-	</div>
-  </div>
-  <div class="row">
-    <div class="col-sm-4">
-      
+  <div class="container">
+    <div class="jumbotron">
+      <div id="1">
+        <img src="/static/1.jpg" height="350px">
+      </div>
     </div>
-    <div class="col-sm-4">
-	<h2>Prediction</h2>
-	<p>FLOWER NAME - {{ flower }}</p>
-	<p>Class Index : {{ category }}</p>
+    <div class="row">
+      <div class="col-sm-4">
+
+      </div>
+      <div class="col-sm-4">
+        <h2>Prediction</h2>
+        <p>
+
+          {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+        <table class=flashes>
+          <tr>
+            <th>Flower Name</th>
+            <th>Class Index</th>
+          </tr>
+          {% for categoty, message in messages %}
+          <tr>
+            <td>{{ message }}</td>
+            <td>{{ categoty }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+        {% endif %}
+        {% endwith %}
+
+        </p>
+       
+      </div>
+
     </div>
-    
   </div>
-</div>
-<div class="footer">
-  <p>MADE BY SOURAV KUMAR (PYTORCH UDACITY SCHOLAR) </p>
-</div>
-	
+  <div class="footer">
+    <font size="+2">
+      <p>FLOWER CLASSIFICATION USING PYTORCH AND FLASK </p>
+    </font>
+  </div>
+
 </body>
+
 </html>
