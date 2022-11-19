@@ -28,7 +28,7 @@ This neural network web application shows how the network was trained and tested
 https://user-images.githubusercontent.com/99461999/202816997-ef2fff87-a1e8-4048-960e-2e07c3369031.mov
 
 
-## Run on windows - 
+## Running Steps - 
 Make sure you have installed Python , Pytorch and flask.
 
 * _First download all the folders and files_     
@@ -39,7 +39,7 @@ Make sure you have installed Python , Pytorch and flask.
 `cd 255-Bonous-Work`      
 * _Now run the following commands_ -        
 
-`set FLASK_APP=flower.py`   
+`export FLASK_APP=flower.py`   
 
 `flask run`      
 
