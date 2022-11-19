@@ -1,6 +1,11 @@
 
 ## Option: 6) Serving with REST APIs( Python Flask ) 
 
+# Devlopment of AI application and classification:
+
+## COLAB NOTEBOOK: 
+https://colab.research.google.com/drive/1WVUu3SfG6LjkPxjWs8QWBHlGsUsWU5sH#scrollTo=s2FFmHRz2zpR
+
 # FLOWER CLASSIFIER WEBAPP
 
 This neural network web application shows how the network was trained and tested with a 98.6% accuracy rate. The neural network is trained to categorize photos of flowers using the pretrained resnet152 algorithm. It was created with the Pytorch framework and primarily in Python. Flask is used to build the web application.
