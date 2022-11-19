@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/',methods = ['GET','POST'])
 def hello_world():
 	if request.method == 'GET':
-		return render_template('index.html',name = "sourav")
+		return render_template('index.html',name = "Shubhada")
 	if request.method == 'POST':
 		print(request.files)
 		if 'file' not in request.files:
