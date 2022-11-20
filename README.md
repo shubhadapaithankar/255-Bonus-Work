@@ -13,7 +13,7 @@ https://github.com/shubhadapaithankar/255-Bonous-Work/blob/main/Flower_classifie
 
 # FLOWER CLASSIFIER WEBAPP
 
-`Application can reseive multiple request at a single time`
+`Application can receive multiple request at a single time`
 
 This neural network web application shows how the network was trained and tested with a 98.6% accuracy rate. The neural network is trained to categorize photos of flowers using the pretrained resnet152 algorithm. It was created with the Pytorch framework and primarily in Python. Flask is used to build the web application.
 
