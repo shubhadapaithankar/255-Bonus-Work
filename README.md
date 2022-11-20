@@ -36,7 +36,6 @@ This neural network web application shows how the network was trained and tested
 [Resnet152](https://resources.wolframcloud.com/NeuralNetRepository/resources/ResNet-152-Trained-on-ImageNet-Competition-Data)    
 [Network Layers in Pytorch](https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py)        
 * You can dowload ResNet152 [here](https://www.kaggle.com/pytorch/resnet152)    
-* You can download overall modified model [here](https://github.com/souravs17031999/FLOWER-CLASSIFIER-WEBAPP/blob/master/classifier.pt)    
 
 ![resnet152](/static/resnet.gif)   
 
@@ -49,12 +48,7 @@ This neural network web application shows how the network was trained and tested
 * Inference is done by : [inference.py](https://github.com/souravs17031999/FLOWER-CLASSIFIER-WEBAPP/blob/master/inference.py)         
 
 
-
-
-
 https://user-images.githubusercontent.com/99461999/202879351-f77937d2-e736-4d02-b69d-3bead75c35da.mov
-
-
 
 
 ## Complete flow :    
