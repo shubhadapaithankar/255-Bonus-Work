@@ -81,15 +81,17 @@
 
           {% with messages = get_flashed_messages(with_categories=true) %}
           {% if messages %}
-        <table class=flashes>
-          <tr>
+        <table class=flashes, style="width:100%" , style="height:70%">
+          <tr> <center>
             <th>Flower Name</th>
             <th>Class Index</th>
+          </center> 
           </tr>
           {% for categoty, message in messages %}
-          <tr>
+          <tr><center> 
             <td>{{ message }}</td>
             <td>{{ categoty }}</td>
+          </center> 
           </tr>
           {% endfor %}
         </table>
