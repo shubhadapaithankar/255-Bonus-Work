@@ -1,5 +1,5 @@
 
-# Option: 6) Serving with REST APIs( Python Flask ) 
+# Train a model using pytorch Option:(6) Serving with REST APIs( Python Flask ) 
 
 # Devlopment of AI application and classification:
 
