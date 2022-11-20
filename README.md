@@ -60,7 +60,7 @@ https://user-images.githubusercontent.com/99461999/202879351-f77937d2-e736-4d02-
 ## Complete flow :    
 
 
-
+* `Application can receive multiple request at a single time and predict the result`
 https://user-images.githubusercontent.com/99461999/202879871-a07e4e2b-839c-44d3-a814-a47aa046ced9.mov
 
 
