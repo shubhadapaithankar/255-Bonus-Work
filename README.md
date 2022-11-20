@@ -42,12 +42,20 @@ This neural network web application shows how the network was trained and tested
 
 ## Refresher on Neural Network :
 [Gradient Descent](https://medium.com/secure-and-private-ai-writing-challenge/playing-with-gradient-descent-intuition-e5bde385078)   
-[Backpropogation](https://medium.com/secure-and-private-ai-writing-challenge/playing-with-backpropagation-algorithm-intuition-10c42578a8e8)        
+[Backpropogation](https://medium.com/secure-and-private-ai-writing-challenge/playing-with-backpropagation-algorithm-intuition-10c42578a8e8)       
 
 ## Flow :
 * Input image is fed and transformed using : [commons.py](https://github.com/souravs17031999/FLOWER-CLASSIFIER-WEBAPP/blob/master/commons.py)     
 * Inference is done by : [inference.py](https://github.com/souravs17031999/FLOWER-CLASSIFIER-WEBAPP/blob/master/inference.py)         
-![resnet152infer](/static/inference.gif)     
+
+
+
+
+
+https://user-images.githubusercontent.com/99461999/202879351-f77937d2-e736-4d02-b69d-3bead75c35da.mov
+
+
+
 
 ## Complete flow :    
 
