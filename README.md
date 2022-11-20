@@ -11,12 +11,26 @@ https://colab.research.google.com/drive/1WVUu3SfG6LjkPxjWs8QWBHlGsUsWU5sH#scroll
 ### Modele training and AI Application classification steps are as :
 https://github.com/shubhadapaithankar/255-Bonous-Work/blob/main/Flower_classifier-Notebook.ipynb
 
+
+# Building and training the classifier 
+
+To build and train the classifier.Used one of the pretrained models from torchvision.models to get the image features. Build and train a new feed-forward classifier using those features.
+
+1. Load a pre-trained network 
+2. Define a new, untrained feed-forward network as a classifier, using ReLU activations and dropout
+3. Train the classifier layers using backpropagation using the pre-trained network to get the features
+4. Track the loss and accuracy on the validation set to determine the best hyperparameters
+
+Click the like for more Detail Information about model prediction : <a href="https://colab.research.google.com/drive/1WVUu3SfG6LjkPxjWs8QWBHlGsUsWU5sH#scrollTo=s2FFmHRz2zpR/" target="_blank">GOOGLE COLAB</a>
+
+<img width="743" alt="Screen Shot 2022-11-19 at 5 30 46 PM" src="https://user-images.githubusercontent.com/99461999/202878494-72734e4a-42b0-42ad-8484-f6617790abe3.png">
+
+
 # FLOWER CLASSIFIER WEBAPP
 
 `Application can receive multiple request at a single time and predict the result`
 
 This neural network web application shows how the network was trained and tested with a `98.6% accuracy rate`. The neural network is trained to categorize photos of flowers using the pretrained resnet152 algorithm. It was created with the Pytorch framework and primarily in Python. Flask is used to build the web application.
-
 
 ## Neural Network used : 
 [Resnet152](https://resources.wolframcloud.com/NeuralNetRepository/resources/ResNet-152-Trained-on-ImageNet-Competition-Data)    
