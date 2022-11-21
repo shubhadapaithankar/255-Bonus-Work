@@ -23,4 +23,4 @@ def get_tensor(image_bytes):
 	image = Image.open(io.BytesIO(image_bytes))
 	return my_transforms(image).unsqueeze(0)
 
-#Inspire from https://github.com/sagabanana/FLOWER-CLASSIFIER-WEBAPP/blob/master/commons.py
+#Inspired from https://github.com/sagabanana/FLOWER-CLASSIFIER-WEBAPP/blob/master/commons.py
