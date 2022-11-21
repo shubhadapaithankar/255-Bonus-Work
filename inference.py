@@ -19,4 +19,4 @@ def get_flower_name(image_bytes):
 	flower_name = cat_to_name[class_idx]
 	return category, flower_name
 
-#Inspire from https://github.com/souravs17031999/FLOWER-CLASSIFIER-WEBAPP
+#Inspired from https://github.com/sagabanana/FLOWER-CLASSIFIER-WEBAPP/blob/master/inference.py
