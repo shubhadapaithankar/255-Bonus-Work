@@ -36,8 +36,7 @@ This neural network web application shows how the network was trained and tested
 [Resnet152](https://resources.wolframcloud.com/NeuralNetRepository/resources/ResNet-152-Trained-on-ImageNet-Competition-Data)    
 [Network Layers in Pytorch](https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py)        
 * You can dowload ResNet152 [here](https://www.kaggle.com/pytorch/resnet152)    
-
-![resnet152](/static/resnet.gif)   
+ <img width="412" alt="Screen Shot 2022-11-20 at 4 16 05 PM" src="https://user-images.githubusercontent.com/99461999/202934540-d7ac6a03-2784-41d7-ac6d-20a1bdf344f6.png">
 
 ## Refresher on Neural Network :
 [Gradient Descent](https://medium.com/secure-and-private-ai-writing-challenge/playing-with-gradient-descent-intuition-e5bde385078)   
@@ -45,8 +44,7 @@ This neural network web application shows how the network was trained and tested
 
 ## Flow :
 * Input image is fed and transformed using : [commons.py](https://github.com/shubhadapaithankar/255-Bonus-Work/blob/main/commons.py)     
-* Inference is done by : [inference.py](https://github.com/shubhadapaithankar/255-Bonus-Work/blob/main/inference.py)         
-
+* Inference is done by : [inference.py](https://github.com/shubhadapaithankar/255-Bonus-Work/blob/main/inference.py)   
 
 https://user-images.githubusercontent.com/99461999/202879351-f77937d2-e736-4d02-b69d-3bead75c35da.mov
 
