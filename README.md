@@ -44,8 +44,8 @@ This neural network web application shows how the network was trained and tested
 [Backpropogation](https://medium.com/secure-and-private-ai-writing-challenge/playing-with-backpropagation-algorithm-intuition-10c42578a8e8)       
 
 ## Flow :
-* Input image is fed and transformed using : [commons.py](https://github.com/souravs17031999/FLOWER-CLASSIFIER-WEBAPP/blob/master/commons.py)     
-* Inference is done by : [inference.py](https://github.com/souravs17031999/FLOWER-CLASSIFIER-WEBAPP/blob/master/inference.py)         
+* Input image is fed and transformed using : [commons.py](https://github.com/shubhadapaithankar/255-Bonus-Work/blob/main/commons.py)     
+* Inference is done by : [inference.py](https://github.com/shubhadapaithankar/255-Bonus-Work/blob/main/inference.py)         
 
 
 https://user-images.githubusercontent.com/99461999/202879351-f77937d2-e736-4d02-b69d-3bead75c35da.mov
