@@ -89,3 +89,8 @@ now go to the local server something like this - http://127.0.0.1:5000/ and see 
 <img width="1440" alt="Screen Shot 2022-11-20 at 1 55 21 PM" src="https://user-images.githubusercontent.com/99461999/202928575-ea372089-2eaa-4338-a63c-7645e31ae53e.png">
 
 <img width="1440" alt="Screen Shot 2022-11-20 at 1 59 24 PM" src="https://user-images.githubusercontent.com/99461999/202928568-fac4ca64-fffc-4f26-8c69-7ffdbb897842.png">
+
+
+## Refrances:
+1. https://www.robots.ox.ac.uk/~men/publications.html
+2. https://github.com/imamun93/animal-image-classifications/blob/master/final_notebook.ipynb
