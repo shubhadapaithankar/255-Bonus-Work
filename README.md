@@ -8,7 +8,7 @@ AI algorithms will be used in an increasing number of commonplace applications i
 ### COLAB NOTEBOOK: 
 https://colab.research.google.com/drive/1WVUu3SfG6LjkPxjWs8QWBHlGsUsWU5sH#scrollTo=s2FFmHRz2zpR
 
-### Modele training and AI Application classification steps are as :
+### Model training and AI Application classification steps are as :
 https://github.com/shubhadapaithankar/255-Bonous-Work/blob/main/Flower_classifier-Notebook.ipynb
 
 
